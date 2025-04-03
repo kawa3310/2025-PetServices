@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nav class="d-flex justify-content-center border  justify-content-between align-items-center nav-side">
+    <nav class="d-flex justify-content-center  justify-content-between align-items-center nav-side">
       <h1 class="text-warning">PETPET</h1>
       <div class="d-flex justify-content-center justify-content-center align-items-center gap-8">
         <a href="#" class="text-danger">預約服務</a>
@@ -13,7 +13,7 @@
     <div class="d-flex align-items-center">
       <div class="row w-100">
         <div class="col-md-6">
-          <img src="https://github.com/kawa3310/2025-PetServices/blob/main/png/pnpm-lock/%E5%88%87%E7%89%88%E7%9B%B4%E6%92%AD%E7%8F%AD-W8-%E6%8F%92%E5%9C%96_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%201@2x.png?raw=true" class="img-fluid bg-warning" alt="示例圖片">
+          <img src="/png/切版直播班-W8-插圖_工作區域 1.png" alt="示例圖片" class="bg-warning">
         </div>
         <div class="col-md-6 d-flex align-items-center position-relative">
           <div>
@@ -37,7 +37,7 @@
       </div>
     </div>
   </header>
-  <main class="main container mt-9">
+  <main class="indent container mt-9">
     <div class="text-danger">
       <h1>本月熱門保姆</h1>
       <span class="fs-7">即時瞭解您的需求，安排最適合毛孩的寵物保姆！</span>
@@ -167,6 +167,61 @@
       </ul>
     </div>
   </main>
+  <section class="indent container mt-9">
+    <div>
+      <div class="text-danger">
+        <h1>本月熱門保姆</h1>
+        <span class="fs-7">即時瞭解您的需求，安排最適合毛孩的寵物保姆！</span>
+      </div>
+      <div class="row">
+        <!-- 左側區塊 -->
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6">
+              <img src="/png/eric-han-WJ6fmN1D-h0-unsplash.jpg" alt="pet-img" class="w-100">
+            </div>
+            <div class="col-6">
+              <img src="/png/karlis-dambrans-4ikT5GTlhps-unsplash.jpg" alt="pet-img" class="w-100">
+            </div>
+          </div>
+        </div>
+
+        <!-- 右側區塊 -->
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6">
+              <img src="/png/yerlin-matu-GtwiBmtJvaU-unsplash.jpg" alt="pet-img" class="w-100">
+              <img src="/png/leonides-ruvalcabar--JsZ6o5nIhs-unsplash.jpg" alt="pet-img" class="w-100 mt-2">
+            </div>
+            <div class="col-6">
+              <img src="/png/daniel-cano-dpb-qhtcA0A-unsplash.jpg" alt="pet-img" class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mt-9">
+    <div class="cat-img">
+      <div class="bg-text">
+        <p class="mb-9 fs-2">PETPET目前已有</p>
+        <ul class="bg-title p-0 d-flex">
+          <li>
+            <p>5278</p>
+            <span>人使用 PETPET</span>
+          </li>
+          <li>
+            <p>580</p>
+            <span>人成為寵物保母</span>
+          </li>
+          <li>
+            <p>10000+</p>
+            <span>已完成服務</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </template>
 
 
@@ -194,12 +249,12 @@
     color: white;
     padding: 10px;
     bottom: 5%;
-    left: 69%;
+    left: 79%;
   }
   .bi-caret-down{
     color: #ff6600;
   }
-  .main {
+  .indent {
     padding: 0 85px;
   }
   .reserve-btn {
@@ -222,5 +277,28 @@
   }
   .text-small {
     font-size: 14px;
+  }
+  .cat-img {
+    background: url('https://images.unsplash.com/photo-1567507968014-cd038413b9f5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center / cover;
+    width: 100%;
+    height: 584px;
+    color: white;
+  }
+  .bg-text {
+    padding: 85px 0 0  80px;
+  }
+  .bg-title {
+    gap: 200px;
+    li {
+      border-left: 1px solid rgb(255, 255, 255);
+      padding-left: 16px;
+      height: 212px;
+      p {
+        font-size: 48px;
+      }
+      span {
+        font-size: 20px;
+      }
+    }
   }
 </style>
