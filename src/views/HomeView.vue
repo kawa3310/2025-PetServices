@@ -222,6 +222,26 @@
       </div>
     </div>
   </section>
+  <section class="indent mt-9">
+    <div class="text-danger">
+      <h1>預約流程</h1>
+      <span class="fs-7">輕鬆三步驟，立即獲取最佳服務！</span>
+    </div>
+    <div class="row text-danger pt-3">
+      <div class="col">
+        <p>1.查詢想要的服務</p>
+        <div class="rectangle"></div>
+      </div>
+      <div class="col">
+        <p>2.找到合適的保姆</p>
+        <div class="rectangle"></div>
+      </div>
+      <div class="col">
+        <p>3.填寫資料完成預約</p>
+        <div class="rectangle"></div>
+      </div>
+    </div>
+  </section>
 </template>
 
 
@@ -300,5 +320,10 @@
         font-size: 20px;
       }
     }
+  }
+  .rectangle {
+    width: 350px;
+    height: 160px;
+    background-color: #F8B52D;
   }
 </style>
