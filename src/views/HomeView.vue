@@ -242,6 +242,15 @@
       </div>
     </div>
   </section>
+  <section class="indent text-danger mt-9 bg-warning ">
+    <h3 class="pt-7 pb-2">有任何我們能幫助您的嗎？</h3>
+    <p class="m-0">輸入電子信箱</p>
+    <p class="m-0">將有專業人員在線幫您解決所有問題</p>
+    <div class="input d-flex pt-2 pb-7">
+      <input type="text" placeholder="example@gmail.com">
+      <button type="button" class="btn btn-primary rounded-0">送出</button>
+    </div>
+  </section>
 </template>
 
 
@@ -325,5 +334,15 @@
     width: 350px;
     height: 160px;
     background-color: #F8B52D;
+  }
+  .input {
+    input {
+      width: 380px;
+      padding: 15px 12px;
+    }
+    button {
+      width: 160px;
+      padding: 15px 0 ;
+    }
   }
 </style>
