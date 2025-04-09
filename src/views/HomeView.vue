@@ -251,6 +251,57 @@
       <button type="button" class="btn btn-primary rounded-0">送出</button>
     </div>
   </section>
+  <footer class="indent mt-9 footer">
+    <ul class="d-flex justify-content-between text-danger align-content-center">
+      <li>
+        <ul class="text-title">
+          <li>
+            <p class="fs-3 text-warning">PETPET</p>
+          </li>
+          <li>關於我們</li>
+          <li>幫助中心</li>
+          <li>使用條款</li>
+          <li>隱私政策</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="text-title">
+          <li>
+            <p class="fw-bold">寵物服務</p>
+          </li>
+          <li>寵物寄宿</li>
+          <li>寵物到府保姆</li>
+          <li>寵物美容洗澡</li>
+          <li>寵物行為訓練</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="text-title">
+          <li>
+            <p class="fw-bold">加入我們</p>
+          </li>
+          <li>成為寵物保姆</li>
+          <li>加入寵物計程車</li>
+          <li>專屬 APP 下載</li>
+          <li>相關合約條款</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="text-title">
+          <li>
+            <p class="fw-bold">聯繫我們</p>
+          </li>
+          <li>
+            <span class="material-icons">phone</span>
+            petpet@petmail.com</li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="d-flex justify-content-between align-content-center text-danger">
+      <li class="ps-4">07-123-4567</li>
+      <li>Copyright © 2020 PetPet. All rights reserved.</li>
+    </ul>
+  </footer>
 </template>
 
 
@@ -343,6 +394,19 @@
     button {
       width: 160px;
       padding: 15px 0 ;
+    }
+  }
+  .footer {
+    p {
+      margin: 0;
+    }
+    .text-title {
+      li {
+        padding-bottom: 24px;
+        p {
+          font-size: 20px;
+        }
+      }
     }
   }
 </style>
